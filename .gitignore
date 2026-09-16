@@ -1,0 +1,14 @@
+# Secrets -- never commit real config
+.env
+
+# Runtime state written by the pipeline
+state/sent_log.json
+sent/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
